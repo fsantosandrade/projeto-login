@@ -5,8 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
-    
+    <main>
+        <section id="Login">
+            <div id="imagem">
+                
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div id="email">
+                        <fieldset>
+                            <label for="usuário">usuário</label>
+                            <input type="email" name="usuário" id="usuário" required placeholder="seu email" autocomplete="email">
+                        </fieldset>
+                    </div>
+                    <div id="pass">
+                        <fieldset>
+                            <label for="senha">senha</label>
+                            <input type="password" name="senha" id="senha" required placeholder="sua senha" minlength="8" autocomplete="current-password">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar" class="bot" id="botemail">
+                        <input type="submit" value="Esqueci a senha" class="bot" id="botsenha">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

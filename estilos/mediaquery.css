@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* MEDIA QUERY */
+
+/* tablet */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+/* desktop acima */
+
+@media screen and (min-width: 1200px) {
+
+}
