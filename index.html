@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
@@ -17,17 +18,13 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    <div id="email">
-                        <fieldset>
-                            <label for="usuário">usuário</label>
+                    <div class="campo">                   
+                            <label for="usuário"><i class="material-icons">person</i></label>
                             <input type="email" name="usuário" id="usuário" required placeholder="seu email" autocomplete="email">
-                        </fieldset>
                     </div>
-                    <div id="pass">
-                        <fieldset>
-                            <label for="senha">senha</label>
+                    <div class="campo">                    
+                            <label for="senha"><i class="material-icons">key</i></label>
                             <input type="password" name="senha" id="senha" required placeholder="sua senha" minlength="8" autocomplete="current-password">
-                        </fieldset>
                     </div>
                     <div>
                         <input type="submit" value="Entrar" class="bot" id="botemail">

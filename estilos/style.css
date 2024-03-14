@@ -51,6 +51,7 @@ h1 {
 }
 
 section#Login {
+    height: 420px;
     border-radius: 6px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 
@@ -74,17 +75,22 @@ label {
 }
 
 input {
-    height: 28px;
-    width: 70%;
+    height: 26px;
+    width: 84%;
     border-radius: 5px;
-    background-color: #49a09d;
+    background-color: #5eccc8;
+    float: right;
 }
 
 input:focus {
     background-color: white;
 }
 
-fieldset {
+div.campo {
+    height: 30px;
+}
+
+form > div.campo {
     background-color: #5f2c82;
     margin: auto;
     margin-bottom: 5px;
@@ -100,15 +106,23 @@ fieldset {
     margin-bottom: 5px;
     color: white;
     height: 37px;
+    border: none;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+#botemail {
+    background-color: #3b8684;
 }
 
 #botemail:hover {
-    background-color: #2c6462;
+    background-color: #2b615f;
 }
 
 #botsenha {
     background-color: white;
     color: #2c6462;
+    border: 1px solid #2c6462;
 }
 
 #botsenha:hover {
