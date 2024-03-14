@@ -32,6 +32,10 @@
     .bot {
         margin-right: 10px;
     }
+
+    input {
+        width: 85%;
+    }
 }
 
 /* desktop acima */
@@ -63,5 +67,9 @@
 
     .bot {
         margin-right: 15px;
+    }
+
+    input {
+        width: 90%;
     }
 }

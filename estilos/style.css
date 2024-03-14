@@ -51,7 +51,6 @@ h1 {
 }
 
 section#Login {
-    height: 420px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 
@@ -71,12 +70,11 @@ div#imagem, div#form {
 
 label {
     color: white;
-    padding: 5px;
 }
 
 input {
     height: 26px;
-    width: 84%;
+    width: 80%;
     border-radius: 5px;
     background-color: #5eccc8;
     float: right;
@@ -87,7 +85,7 @@ input:focus {
 }
 
 div.campo {
-    height: 30px;
+    height: 35px;
 }
 
 form > div.campo {
