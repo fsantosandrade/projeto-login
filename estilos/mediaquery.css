@@ -24,6 +24,10 @@
     body {
         background-image: linear-gradient(#5f2c82, #49a09d);
     }
+
+    section#Login > div > p {
+        font-size: 1.2em;
+    }
 }
 
 /* desktop acima */
@@ -47,5 +51,9 @@
 
     body {
         background-image: linear-gradient(#5f2c82, #49a09d);
+    }
+
+    section#Login > div > p {
+        font-size: 1.2em;
     }
 }

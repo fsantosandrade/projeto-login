@@ -61,6 +61,7 @@ section#Login {
 section#Login > div > p {
     text-align: justify;
     padding: 7px;
+    font-size: 0.8em;
 }
 
 div#imagem, div#form {
