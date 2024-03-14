@@ -4,12 +4,48 @@
 
 /* tablet */
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#Login {
+        width: 80vw;
+        height: 55vh;
+    }
+
+    section#Login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#Login > div#form {
+        float: right;
+        width: 70%;
+    }
+
+    body {
+        background-image: linear-gradient(#5f2c82, #49a09d);
+    }
 }
 
 /* desktop acima */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
+    section#Login {
+        width: 950px;
+        height: 55vh;
+    }
 
+    section#Login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#Login > div#form {
+        float: left;
+        width: 50%;
+    }
+
+    body {
+        background-image: linear-gradient(#5f2c82, #49a09d);
+    }
 }

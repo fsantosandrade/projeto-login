@@ -37,8 +37,9 @@ main {
 }
 
 div#imagem {
-    height: 23vh;
-    background: url(../imagens/pexels-matthew-simmonds-1570404.jpg) right center no-repeat fixed;
+    height: 19vh;
+    background: url(../imagens/pexels-matthew-simmonds-1570404.jpg) no-repeat;
+    background-position: center;
     background-size: cover;
     border-radius: 6px;
 }
@@ -49,13 +50,21 @@ h1 {
     padding-bottom: 5px;
 }
 
-section {
+section#Login {
     border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
-section > div > p {
+section#Login > div > p {
     text-align: justify;
     padding: 7px;
+}
+
+div#imagem, div#form {
+    display: block;
 }
 
 label {
